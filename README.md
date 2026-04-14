@@ -8,6 +8,9 @@ This project is marked read-only.
 
 License: GNU Affero GPL version 3.0 or later.
 
+<img width="1300" height="1300" alt src="https://github.com/user-attachments/assets/2e0394e6-279b-4cbc-beeb-8659983b49f4" />
+
+
 ### All contributors
 
 *   Bernd Gruber (grubernd)
