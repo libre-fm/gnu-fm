@@ -1,6 +1,10 @@
 {
     "name": "libre-fm/gnu-fm",
     "description": "A music community platform",
+    "keywords": ["music", "librefm", "gnu"],
+    "homepage": "https://libre.fm/",
+    "type": "project",
+    "license": "AGPL-3.0-or-later",
     "require": {
         "php": "=5.6"
     }
