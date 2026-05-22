@@ -1,0 +1,6 @@
+{
+    "name": "libre-fm/gnu-fm",
+    "description": "A music community platform",
+    "require": {
+        "php": "=5.6",
+    }
