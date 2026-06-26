@@ -1776,7 +1776,11 @@ function json_response($data) {
 
 function get_with_default($param, $default) {
 	if (isset($_REQUEST[$param])) {
-		return $_REQUEST[$param];
+		if (is_int($default)) {
+			return (int) $_REQUEST[$param];
+		} else {
+			return $_REQUEST[$param];
+		}
 	} else {
 		return $default;
 	}
