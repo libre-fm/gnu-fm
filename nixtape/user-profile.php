@@ -69,6 +69,14 @@ if (isset($user->name)) {
 	$smarty->assign('pagetitle', $user->name);
         $smarty->assign('awesomenumber', $user->uniqueid);
 
+	if (strpos($user->bio, "http")) {
+		$smarty->assign('totaltracks', 0);
+	}
+	
+	if (strpos($user->bio, "www")) {
+		$smarty->assign('totaltracks', 0);
+	}
+
 	$smarty->assign('extra_head_links', array(
 				array(
 					'rel'   => 'alternate',
