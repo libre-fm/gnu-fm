@@ -123,6 +123,11 @@ $clients = array(
 	array('code' => 'zom', 'api_key' => $free_apikey, 'name' => 'ZOMG', 'url' => 'http://zomg.alioth.debian.org/', 'free' => True),
 	array('code' => $free_code, 'api_key' => 'thisisthelibreimport2pythonthing', 'name' => 'libreimport v2', 'url' => 'https://gitorious.org/fmthings/lasttolibre', 'free' => True),
 	array('code' => $free_code, 'api_key' => 'thisisthelibrelovepythonthing123', 'name' => 'librelove', 'url' => 'https://gitorious.org/fmthings/misc', 'free' => True),
+  array('code' => 'wss', 'api_key' => 'r8i1y91hz71tcx7vyrp9hk1alhqp1898', 'name' => 'Web Scrobbler', 'url' => 'https://webscrobbler.com/', 'free'=>True),
+	array('code' => 'kda', 'api_key' => 'ddf591df0bf83bf80b811fd94c4e44f7', 'name' => 'Koda', 'url' => 'https://www.joinkoda.eu', 'free' => False),
+	array('code' => 'xer', 'api_key' => 'becd81a1ad682711c62ca4c880332d3a', 'name' => 'XeroTunes', 'url' => 'https://xerotunes.com/', 'free' => True),
+
+
 );
 
 /**
